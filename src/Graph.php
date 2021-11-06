@@ -123,6 +123,7 @@ class Graph
                 $result += $this->nodes[$route[$i]][$route[$i+1]];
             }
         }
+        echo "hi, this is a temporary test";
         return floatval($result);
     }
 
