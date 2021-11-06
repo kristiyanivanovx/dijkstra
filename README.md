@@ -1,11 +1,20 @@
 # Dijkstra's algorithm in PHP
 [![Build Status](https://travis-ci.org/taniko/dijkstra.svg?branch=master)](https://travis-ci.org/taniko/dijkstra)
-
 ---
 
+Fork of [taniko/dijkstra](https://github.com/taniko/dijkstra), extended to suit my needs.
 ## Installation
 ```sh
 composer require taniko/dijkstra
+```
+
+```
+"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kristiyanivanovx/dijkstra"
+        }
+    ],
 ```
 
 ## Usage
